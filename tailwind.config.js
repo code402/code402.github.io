@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
     content: ["./*.{html,js}"],
     theme: {
@@ -12,10 +14,7 @@ module.exports = {
         listStyleType: {
           'oDisc': 'circle',
         },
-        fontFamily: {
-          'sans': 'Noto Sans, Open Sans, Helvetica Neue, sans-serif',
-          'headers': 'Roboto Slab, Open Sans, Helvetica Neue, sans-serif',
-        }
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
     plugins: [
