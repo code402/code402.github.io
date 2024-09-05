@@ -657,6 +657,16 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-src-magenta {
+  --tw-gradient-from: #cd087d var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(100 116 139 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-src-teal {
+  --tw-gradient-to: #0d7490 var(--tw-gradient-to-position);
+}
+
 .to-gray-200 {
   --tw-gradient-to: #e5e7eb var(--tw-gradient-to-position);
 }
